@@ -1,0 +1,68 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "eiRzLoenl7oEVCuoT+Ju/zWBlKg=",
+			"origin": "github.com/hashicorp/consul/vendor/github.com/armon/go-metrics",
+			"path": "github.com/armon/go-metrics",
+			"revision": "863ac12811c4673d6b4930b03b31344655e5abf7",
+			"revisionTime": "2018-05-11T16:03:36Z"
+		},
+		{
+			"checksumSHA1": "cZw5u6BGWe3gjJxmXT6J0Tfn6Mw=",
+			"path": "github.com/hashicorp/consul/api",
+			"revision": "863ac12811c4673d6b4930b03b31344655e5abf7",
+			"revisionTime": "2018-05-11T16:03:36Z"
+		},
+		{
+			"checksumSHA1": "YAq1rqZIp+M74Q+jMBQkkMKm3VM=",
+			"origin": "github.com/hashicorp/consul/vendor/github.com/hashicorp/go-cleanhttp",
+			"path": "github.com/hashicorp/go-cleanhttp",
+			"revision": "863ac12811c4673d6b4930b03b31344655e5abf7",
+			"revisionTime": "2018-05-11T16:03:36Z"
+		},
+		{
+			"checksumSHA1": "Cas2nprG6pWzf05A2F/OlnjUu2Y=",
+			"origin": "github.com/hashicorp/consul/vendor/github.com/hashicorp/go-immutable-radix",
+			"path": "github.com/hashicorp/go-immutable-radix",
+			"revision": "863ac12811c4673d6b4930b03b31344655e5abf7",
+			"revisionTime": "2018-05-11T16:03:36Z"
+		},
+		{
+			"checksumSHA1": "A1PcINvF3UiwHRKn8UcgARgvGRs=",
+			"origin": "github.com/hashicorp/consul/vendor/github.com/hashicorp/go-rootcerts",
+			"path": "github.com/hashicorp/go-rootcerts",
+			"revision": "863ac12811c4673d6b4930b03b31344655e5abf7",
+			"revisionTime": "2018-05-11T16:03:36Z"
+		},
+		{
+			"checksumSHA1": "2nOpYjx8Sn57bqlZq17yM4YJuM4=",
+			"origin": "github.com/hashicorp/consul/vendor/github.com/hashicorp/golang-lru/simplelru",
+			"path": "github.com/hashicorp/golang-lru/simplelru",
+			"revision": "863ac12811c4673d6b4930b03b31344655e5abf7",
+			"revisionTime": "2018-05-11T16:03:36Z"
+		},
+		{
+			"checksumSHA1": "0PeWsO2aI+2PgVYlYlDPKfzCLEQ=",
+			"origin": "github.com/hashicorp/consul/vendor/github.com/hashicorp/serf/coordinate",
+			"path": "github.com/hashicorp/serf/coordinate",
+			"revision": "863ac12811c4673d6b4930b03b31344655e5abf7",
+			"revisionTime": "2018-05-11T16:03:36Z"
+		},
+		{
+			"checksumSHA1": "V6/3YAXU0wrWM7HOUnLcxrxkHMc=",
+			"path": "github.com/jasonlvhit/gocron",
+			"revision": "54194c9749d48b073c9aeb2c787b6882e95dd0cd",
+			"revisionTime": "2018-03-12T19:25:15Z"
+		},
+		{
+			"checksumSHA1": "V/quM7+em2ByJbWBLOsEwnY3j/Q=",
+			"origin": "github.com/hashicorp/consul/vendor/github.com/mitchellh/go-homedir",
+			"path": "github.com/mitchellh/go-homedir",
+			"revision": "863ac12811c4673d6b4930b03b31344655e5abf7",
+			"revisionTime": "2018-05-11T16:03:36Z"
+		}
+	],
+	"rootPath": "github.com/IaaS"
+}
