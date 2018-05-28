@@ -3,6 +3,12 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "jc/kgOJNacek94rHKuFgIsjWwZw=",
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "ea8897e79973357ba785ac2533559a6297e83c44",
+			"revisionTime": "2018-05-23T07:42:43Z"
+		},
+		{
 			"checksumSHA1": "eiRzLoenl7oEVCuoT+Ju/zWBlKg=",
 			"origin": "github.com/hashicorp/consul/vendor/github.com/armon/go-metrics",
 			"path": "github.com/armon/go-metrics",
@@ -62,6 +68,24 @@
 			"path": "github.com/mitchellh/go-homedir",
 			"revision": "863ac12811c4673d6b4930b03b31344655e5abf7",
 			"revisionTime": "2018-05-11T16:03:36Z"
+		},
+		{
+			"checksumSHA1": "BGm8lKZmvJbf/YOJLeL1rw2WVjA=",
+			"path": "golang.org/x/crypto/ssh/terminal",
+			"revision": "ab813273cd59e1333f7ae7bff5d027d4aadf528c",
+			"revisionTime": "2018-05-26T08:55:52Z"
+		},
+		{
+			"checksumSHA1": "1JsTlZnfy3UD/H6z4gw0v7qh058=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "c11f84a56e43e20a78cee75a7c034031ecf57d1f",
+			"revisionTime": "2018-05-25T13:55:20Z"
+		},
+		{
+			"checksumSHA1": "m5QCvoZ2KaoLTG9VWjYNonM08b8=",
+			"path": "golang.org/x/sys/windows",
+			"revision": "c11f84a56e43e20a78cee75a7c034031ecf57d1f",
+			"revisionTime": "2018-05-25T13:55:20Z"
 		}
 	],
 	"rootPath": "github.com/IaaS"

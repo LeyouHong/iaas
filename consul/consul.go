@@ -50,7 +50,7 @@ func DeRegisterServer() {
 func CheckService(client *consulapi.Client, hostName string) bool {
 	services, err := client.Agent().Checks()
 	if err != nil {
-		log.Fatal(err)
+		return true
 	}
 
 	// if you already register to consul and service's status is passing. you need't to register
