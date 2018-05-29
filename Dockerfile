@@ -1,5 +1,4 @@
-# start a golang base image, version 1.8
-FROM golang:1.8 as builder
+FROM golang:latest as builder
 
 #disable crosscompiling 
 ENV CGO_ENABLED=0
@@ -9,6 +8,10 @@ ENV GOOS=linux
 
 ADD . /go/src/github.com/IaaS
 RUN cd /go/src/github.com/IaaS && make
+
+FROM alpine:latest
+
+RUN apk add --no-cache ca-certificates
 
 COPY --from=builder /go/src/github.com/IaaS/build/demo /usr/local/bin/
 #Service config
