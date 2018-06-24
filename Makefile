@@ -5,6 +5,7 @@ PACKAGES = $(shell go list ./... | grep -v '/vendor/')
 
 build:
 	go build -o build/demo github.com/IaaS/services/demo
+	go build -o build/demo github.com/IaaS/services/rest
 
 docker:	
 	docker build -t demo .

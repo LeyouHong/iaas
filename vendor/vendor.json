@@ -63,6 +63,12 @@
 			"revisionTime": "2018-03-12T19:25:15Z"
 		},
 		{
+			"checksumSHA1": "X7g98YfLr+zM7aN76AZvAfpZyfk=",
+			"path": "github.com/julienschmidt/httprouter",
+			"revision": "adbc77eec0d91467376ca515bc3a14b8434d0f18",
+			"revisionTime": "2018-04-11T15:45:01Z"
+		},
+		{
 			"checksumSHA1": "V/quM7+em2ByJbWBLOsEwnY3j/Q=",
 			"origin": "github.com/hashicorp/consul/vendor/github.com/mitchellh/go-homedir",
 			"path": "github.com/mitchellh/go-homedir",
