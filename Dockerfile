@@ -7,7 +7,7 @@ ENV CGO_ENABLED=0
 ENV GOOS=linux
 
 ADD . /go/src/github.com/IaaS
-RUN cd /go/src/github.com/IaaS && make
+RUN cd /go/src/github.com/IaaS && make clean && make
 
 FROM alpine:latest
 

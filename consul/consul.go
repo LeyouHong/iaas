@@ -9,6 +9,7 @@ import (
 )
 
 func RegisterServer() {
+	fmt.Println("RegisterServer")
 	if CheckService(conf.Conf.Consul.Cli, conf.Conf.Service.Hostname) {
 		return
 	}

@@ -1,17 +1,24 @@
 version: '3'
 services:
   consul:
-    image: consul:latest
+    image: consul:1.1.0
     ports:
       - "8400:8400"
       - "8500:8500"
     networks:
       - backend
-  demo:
+  demo1:
     image: demo
     build: .
     ports:
       - "80:80"
+    networks:
+      - backend
+  demo2:
+    image: demo
+    build: .
+    ports:
+      - "81:80"
     networks:
       - backend
 networks:
